@@ -53,13 +53,7 @@ const badgeVariants = cva(
 	}
 )
 
-const Badge = ({
-	children,
-	variant,
-	className,
-	selectable,
-	...props
-}) => (
+const Badge = ({ children, variant, className, selectable, ...props }) => (
 	<span
 		className={cn(badgeVariants({ variant, selectable }), className)}
 		{...props}

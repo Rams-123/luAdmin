@@ -2,9 +2,7 @@ import defaultTheme from "tailwindcss/defaultTheme"
 
 const config = {
 	darkMode: ["class"],
-	content: [
-		"./src/**/*.{js,jsx}",
-	],
+	content: ["./src/**/*.{js,jsx}"],
 	prefix: "",
 	theme: {
 		screens: {
